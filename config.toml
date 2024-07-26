@@ -1,0 +1,35 @@
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+#baseURL = "https://celiamulcahey.github.io/"
+title = "Celia R Mulcahey's Personal Website"
+#googleAnalytics = ""
+
+[params]
+
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+
+#color on last name
+colorPrimary = "#3F8EFC"
+#color on first name
+colorSecondary = "#3F8EFC"
+
+colorIconPrimary = "#fff"
+colorIconBackground = "#fff"
+
+colorRightColumnBackground = "#D6E9FF"
+colorRightColumnHeadingText = "#011128"
+colorRightColumnBodyText = "#011128"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#011128"
+pages = 1
+# Set this param to 'true' to swap the bar positions
+swapColumns = true

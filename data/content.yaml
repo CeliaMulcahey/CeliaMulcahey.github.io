@@ -1,0 +1,129 @@
+BasicInfo:
+  FirstName: Celia Ruth
+  LastName: Mulcahey
+  Photo: img/img.jpg
+  Contacts:
+    # - Icon: fas fa-phone
+    #   Info: +44 123 456 789
+    - Icon: fas fa-envelope
+      Info: cmulcah4@jhu.edu
+    - Icon: fas fa-map-marker-alt
+      Info: Baltimore, MD
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href=https://www.linkedin.com/in/celia-r-mulcahey-220a5019a/" target="_blank">LinkedIn</a>
+
+
+Profile: I am a third-year graduate student at the Johns Hopkins University working with Dr. Susan A. Kassin (Space Telescope Science Institute) and Dr. Timothy M. Heckman (Johns Hopkins University). My current research focuses on the kinematic evolution of galaxies using JWST/NIRSpec observations. This page is a work in progress!
+# Experience:
+#   - Employer: Super Cool Company
+#     Place: Oxford, UK
+#     Positions:
+#       - Title: Software Engineer
+#         Date: Jan 2020 - Present
+#         Details:
+#           - Arcu vitae elementum curabitur vitae nunc sed velit
+#           - Viverra aliquet eget sit amet tellus cras adipiscing
+#           - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+#           - Nisl tincidunt eget nullam non nisi est
+#           - Sed viverra tellus in hac.
+#           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#         Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
+#       - Title: Software Tester
+#         Date: Mar 2019 - Jan 2020
+#         Details:
+#           - Nisl tincidunt eget nullam non nisi est
+#           - Sed viverra tellus in hac.
+#           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#         Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
+#   - Employer: Another super cool company
+#     Place: Lisbon, PT
+#     Positions:
+#       - Title: Flow Cytometry Resource Specialist
+#         Date: Jan 2018 - Mar 2019
+#         Details:
+#           - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+#           - Nisl tincidunt eget nullam non nisi est
+#           - Sed viverra tellus in hac.
+#           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#         Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+#   - Employer: Institute of Neural Engineering
+#     Place: Graz, AT
+#     Class: "experience__extra_padding"
+#     Positions:
+#       - Title: Master's Thesis Research Intern
+#         Date: Oct 2016 - Jun 2017
+#         Details:
+#           - Arcu vitae elementum curabitur vitae nunc sed velit
+#           - Viverra aliquet eget sit amet tellus cras adipiscing
+#           - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+#           - Nisl tincidunt eget nullam non nisi est
+#         Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: Johns Hopkins University, Baltimore, Maryland (2022-present)
+    Place: M.A. in Physics (2024)<br><br>
+
+  - Course: Mount Holyoke College, South Hadley, Massachusetts (2017-2021)
+    Place: B.A. in Astronomy & Geology
+    Details: Bachelor's thesis&colon; "Star Formation and AGN Feedback in the Local Universe&colon; Combining the Radio Continuum and Integral Field Spectroscopy"<br>Advised by Dr. Sarah K. Leslie (Leiden University) and Prof. Jason Young (University of Massachusetts, Amherst)
+
+
+# References:
+#   - Name: Person One
+#     Relation: Co-worker at Super Cool Company
+#     Contacts:
+#     - Icon: fas fa-phone
+#       Info: +44 123 456 790
+#     - Icon: fas fa-envelope
+#       Info: contact@person-one.com
+#     - Icon: fas fa-map-marker-alt
+#       Info: Melbourne, Australia
+#   - Name: Person Two
+#     Relation: Boss at Super Cool Company
+#     Contacts:
+#     - Icon: fas fa-phone
+#       Info: +44 123 456 791
+#     - Icon: fas fa-envelope
+#       Info: contact@person-two.com
+#     - Icon: fas fa-map-marker-alt
+#       Info: Sydney, Australia
+
+
+Technical Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - Fortran
+#   - Family: Frameworks
+#     Items:
+#       - Django
+#       - Flask
+#       - Hugo
+#       - React
+#   - Family: Developer Tools
+#     Items:
+#       - Git
+#       - Docker
+#       - Jenkins
+#       - AWS
+#   - Family: Misc
+#     Items:
+#       - Adobe Tools
+#       - LaTeX
+
+# Languages:
+#   - Name: Portuguese
+#     Level: Native
+#   - Name: English
+#     Level: C2
+#   - Name: Spanish
+#     Level: B1
+#   - Name: German
+#     Level: B1
+
+# Diplomas:
+#   - ISTQB Tester Certification (2019)
+#   - English Cambridge CAE (2009)
+
+# Interests:
+#   - Ice Skating

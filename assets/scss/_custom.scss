@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap');
+
+body {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: $color-dark;
+}
+
+
+.mainHeading {
+    text-transform: uppercase;
+    font-size: 4.7rem;
+    font-weight: 500;
+    color: $color-secondary;
+
+    & span {
+        color: $color-primary;
+    }
+}
+
+.section__title {
+    font-size: 3rem;
+    color: $color-dark;
+}
+
+h1,
+h2 {
+    font-size: 5 rem;
+    text-transform: uppercase;
+    font-family: 'Avenir', sans-serif;
+}
+.contact__item i {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; /* Solid style */
+    display: inline-block;
+    margin-right: 8px; /* Adjust as needed */
+}
+
+.contact__item {
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
