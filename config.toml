@@ -6,7 +6,7 @@ enableEmoji = true
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-#baseURL = "https://celiamulcahey.github.io/"
+baseURL = "https://CeliaMulcahey.github.io/"
 title = "Celia R Mulcahey's Personal Website"
 #googleAnalytics = ""
 
