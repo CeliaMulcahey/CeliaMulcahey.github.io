@@ -83,7 +83,7 @@ outputs: ["html"]
 
 <!-- ---------- -->
 
-<h2>Grands & Awards</h2>
+<h2>Grants & Awards</h2>
 <hr style="border: none; border-top: 0.4pt solid;">
 
 <em>Asterisk (*) indicates major contribution to program</em>
@@ -184,7 +184,7 @@ outputs: ["html"]
 <h3>Conference Talks</h3>
 <ol>
     <li>
-        <strong>"Exmaining a Rapidly Rotating <em>z</em> ~ 2 Galaxy using JWST/NIRSpec Slitlet-Stepping," </strong> 2024 Santa Cruz Galaxy Workshop, University of California, Santa Cruz.<br>
+        <strong>"Examining a Rapidly Rotating <em>z</em> ~ 2 Galaxy using JWST/NIRSpec Slitlet-Stepping," </strong> 2024 Santa Cruz Galaxy Workshop, University of California, Santa Cruz.<br>
         Mulcahey, C. R., and GARDEN team. 
     </li>
 </ol>
