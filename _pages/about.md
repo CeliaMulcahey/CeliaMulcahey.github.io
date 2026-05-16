@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m an astrophysics PhD candidate at Johns Hopkins University studying how galaxies form and evolve using deep spectroscopic observations from the James Webb Space Telescope. I am a core member of the GARDEN survey, which pioneered “slitlet-stepping,” an observing strategy that effectively transforms JWST/NIRSpec’s micro-shutter assembly (MSA) into a multi-object integral field unit (IFU). By stepping a column of shutters (i.e., a slitlet) across each target, this technique builds IFU-like 3D data cubes with two spatial dimensions and one wavelength dimension for many galaxies at once.
+Hi! I’m an astrophysics PhD candidate at Johns Hopkins University studying how galaxies form and evolve using deep spectroscopic observations from the James Webb Space Telescope. I am a core member of the GARDEN survey, which pioneered “slitlet-stepping,” an observing strategy that transforms JWST NIRSpec’s micro-shutter assembly into a multi-object integral field unit. By stepping a column of shutters (i.e., a slitlet) across each target, this technique builds 3D data cubes with two spatial dimensions and one wavelength dimension for many galaxies at once.
 
 I use these data to study warm gas in and around galaxies from 13 billion years ago to today. I am specifically interested in how this gas moves, what its chemistry is like, and how powerful galactic winds can transport it within and sometimes out of its host galaxy. Together, these clues help us understand how galaxies grow and evolve over cosmic time.
 
