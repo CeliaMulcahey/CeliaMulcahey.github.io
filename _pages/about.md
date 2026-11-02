@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: Astrophysics PhD Candidate · Johns Hopkins University
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -28,6 +28,6 @@ I’m an astrophysics PhD candidate at Johns Hopkins University studying how gal
 
 I use these data to study neutral and ionized gas in and around galaxies from 8 to 13 billion years ago. I am specifically interested in the kinematics of this gas, what its chemistry is like, its structure, and how powerful galactic winds can transport it within and sometimes out of its host galaxy. 
 
-This website is still a work in progress, but my CV is up to date.
+<a class="home-cv-link" href="{{ '/assets/pdf/mulcahey_cv_nov2026.pdf' | relative_url }}">See my CV <span aria-hidden="true">↗</span></a>
 
 
