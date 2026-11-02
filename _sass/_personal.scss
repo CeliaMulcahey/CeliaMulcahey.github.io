@@ -40,11 +40,11 @@ body {
 
 .home-page .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.48fr) minmax(270px, 0.86fr);
+  grid-template-columns: minmax(0, 1fr) 270px;
   align-items: center;
-  column-gap: clamp(2.25rem, 6vw, 6rem);
-  padding: 2.7rem 0 5.5rem;
-  min-height: 620px;
+  column-gap: clamp(1.75rem, 5vw, 4.5rem);
+  padding: 2.7rem 0 4.5rem;
+  min-height: 0;
 }
 
 .home-hero__copy {
@@ -99,7 +99,7 @@ body {
 
 .home-hero__photo {
   width: 100%;
-  max-width: 390px;
+  max-width: 270px;
   justify-self: end;
 }
 
@@ -110,7 +110,7 @@ body {
 .home-hero__photo img {
   display: block;
   width: 100%;
-  height: clamp(360px, 38vw, 470px);
+  height: 340px;
   object-fit: cover;
   object-position: 50% 64%;
   border-radius: 3px;
@@ -129,6 +129,7 @@ footer.sticky-bottom .container {
   text-align: left;
 }
 
+/* On a phone, put a small portrait beside the heading and the full bio below. */
 @media (max-width: 767px) {
   .navbar {
     padding-top: 0.9rem;
@@ -136,15 +137,41 @@ footer.sticky-bottom .container {
   }
 
   .home-page .home-hero {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 2.6rem;
-    min-height: 0;
-    padding: 1rem 0 3rem;
+    grid-template-columns: minmax(0, 1fr) clamp(105px, 29vw, 150px);
+    grid-template-areas:
+      "subtitle photo"
+      "name photo"
+      "bio bio";
+    align-items: start;
+    column-gap: 1.1rem;
+    row-gap: 0.5rem;
+    padding: 1.4rem 0 2.8rem;
+  }
+
+  /* Make the subtitle, name, and bio independently positionable in the grid. */
+  .home-hero__copy {
+    display: contents;
+  }
+
+  .home-hero__subtitle {
+    grid-area: subtitle;
+    align-self: end;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 0;
   }
 
   .home-hero__name {
-    font-size: clamp(3rem, 12vw, 4.2rem);
-    margin-bottom: 1.55rem;
+    grid-area: name;
+    align-self: start;
+    font-size: clamp(2.3rem, 8.2vw, 3.4rem);
+    line-height: 1.08;
+    margin: 0;
+  }
+
+  .home-hero__bio {
+    grid-area: bio;
+    padding-top: 1rem;
   }
 
   .home-hero__bio p {
@@ -152,11 +179,14 @@ footer.sticky-bottom .container {
   }
 
   .home-hero__photo {
-    max-width: 430px;
-    justify-self: center;
+    grid-area: photo;
+    width: 100%;
+    max-width: 150px;
+    justify-self: end;
   }
 
   .home-hero__photo img {
+    width: 100%;
     height: auto;
     aspect-ratio: 4 / 5;
   }
