@@ -112,7 +112,10 @@ nav_order: 1
       <h2 id="research-surveys">The GARDEN and MEADOW surveys</h2>
     </div>
     <p>
-      I am a core member of both the GARDEN and MEADOW surveys, contributing from proposal development and data collection through data reduction and scientific analysis. Both surveys use JWST/NIRSpec slitlet stepping to study distant galaxies. My primary contributions have centered on measuring galaxy redshifts and gas kinematics, for which I developed custom Python analysis pipelines. I also designed the logos for both surveys. Stay tuned for forthcoming results!
+The GARDEN and MEADOW surveys use the novel "slitlet-stepping" strategy with the James Webb Space Telescope's NIRSpec instrument to study distant galaxies. While the integral field unit on NIRSpec typically observes one galaxy at a time, "slitlet-stepping" uses its Micro-Shutter Assembly, which contains thousands of individually configurable shutters, to collect spectra across many galaxies simultaneously. By shifting the slitlets across each galaxy, the surveys build three-dimensional spectral cubes that allow us to map gas motions and emission across galaxies with much greater observing efficiency.
+
+I am a core member of both surveys, involved in proposal writing, development of the "slitlet-stepping" strategy, data collection, reduction, and analysis. My primary contributions have been measuring galaxy redshifts and gas kinematics using custom Python pipelines I developed for these analyses. I also designed the logos for both surveys. Stay tuned for forthcoming results!
+
     </p>
     <div class="research-survey-logo-grid">
       <figure class="research-survey-logo">
