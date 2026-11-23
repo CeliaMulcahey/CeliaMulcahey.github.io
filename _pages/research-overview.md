@@ -120,11 +120,9 @@ I am a core member of both surveys, involved in proposal writing, development of
     <div class="research-survey-logo-grid">
       <figure class="research-survey-logo">
         <img src="{{ '/assets/img/research/garden_logo_transparent.png' | relative_url }}" alt="GARDEN survey logo featuring yellow flowers and a blue sky" width="2048" height="1794" loading="lazy" decoding="async">
-        <figcaption>GARDEN</figcaption>
       </figure>
       <figure class="research-survey-logo">
         <img src="{{ '/assets/img/research/meadow_logo_transparent.png' | relative_url }}" alt="MEADOW survey logo featuring a colorful wildflower meadow and a blue sky" width="2048" height="1794" loading="lazy" decoding="async">
-        <figcaption>MEADOW</figcaption>
       </figure>
     </div>
   </section>
