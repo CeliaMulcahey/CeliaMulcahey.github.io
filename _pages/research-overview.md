@@ -16,7 +16,7 @@ nav_order: 1
       My research uses integral field spectroscopy (IFS), a technique that combines the power of imaging and spectroscopy. Rather than capturing a single spectrum of a galaxy, IFS collects a spectrum of light at every spatial pixel in an image. This creates a three-dimensional dataset, with two spatial dimensions and a third dimension containing wavelength information. By analyzing these spectra, I can construct detailed maps of how gas and stars move, their chemical properties, and the physical conditions across a galaxy, revealing how these characteristics vary from one region to another.
     </p>
     <p>
-      My forthcoming work with the GARDEN and MEADOW surveys examines gas kinematics in distant galaxies as they were 8–13 billion years ago. Below are examples of peer-reviewed research I led on galaxies closer to our own Milky Way. These works are representative of the analyses I am performing on these distant galaxies.
+      My forthcoming work with the GARDEN and MEADOW surveys examines gas kinematics in distant galaxies as they were 8–13 billion years ago. Below are examples of peer-reviewed research I led on galaxies closer to our own Milky Way. These works are representative of the analyses I am performing on the GARDEN and MEADOW datasets.
     </p>
   </div>
 
