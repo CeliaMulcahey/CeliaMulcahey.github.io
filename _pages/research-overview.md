@@ -16,7 +16,7 @@ nav_order: 1
       My research uses integral field spectroscopy (IFS), a technique that combines the power of imaging and spectroscopy. Rather than capturing a single spectrum of a galaxy, IFS collects a spectrum of light at every spatial pixel in an image. This creates a three-dimensional dataset, with two spatial dimensions and a third dimension containing wavelength information. By analyzing these spectra, I can construct detailed maps of how gas and stars move, their chemical properties, and the physical conditions across a galaxy, revealing how these characteristics vary from one region to another.
     </p>
     <p>
-      My forthcoming work with the <strong>GARDEN</strong> and <strong>MEADOW</strong> surveys examines gas kinematics in distant galaxies as they were <strong>7–13 billion years ago</strong>. Below are examples of peer-reviewed research I led on galaxies closer to our own Milky Way. These works are representative of the analyses I am performing on these distant galaxies.
+      My forthcoming work with the GARDEN and MEADOW surveys examines gas kinematics in distant galaxies as they were 8–13 billion years ago. Below are examples of peer-reviewed research I led on galaxies closer to our own Milky Way. These works are representative of the analyses I am performing on these distant galaxies.
     </p>
   </div>
 
@@ -63,7 +63,7 @@ nav_order: 1
         <a href="{{ '/assets/img/research/manga_lofar_figure8.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-resolution emission-line diagnostic diagrams and ionization map in a new tab">
           <img src="{{ '/assets/img/research/manga_lofar_figure8.png' | relative_url }}" alt="Four-panel visualization showing nitrogen and sulfur emission-line diagnostic scatter plots, a WHAN diagram, and the resulting spatial classification map of galaxy 8978-9101." width="2048" height="1689" loading="lazy" decoding="async">
         </a>
-        <figcaption><strong>Figure 3:</strong> Ratios of nitrogen, sulfur, and oxygen emission lines to hydrogen emission are combined to classify the dominant source of ionization in each spatial pixel. The resulting map distinguishes regions associated with young stars, older stars, and AGN-like ionization.</figcaption>
+        <figcaption><strong>Figure 3:</strong> Ratios of nitrogen, sulfur, and oxygen emission lines to hydrogen emission are combined to classify the dominant source of ionization in each spatial pixel. The resulting map distinguishes regions associated with young stars (dark and light brown regions), older stars (dark green regions), and AGN-like ionization (dark and light green regions).</figcaption>
       </figure>
       <figure class="research-figure">
         <a href="{{ '/assets/img/research/manga_lofar_figure9_selected.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-resolution galaxy and control comparison maps in a new tab">
