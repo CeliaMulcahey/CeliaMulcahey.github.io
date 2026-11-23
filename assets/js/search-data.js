@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-using-spectroscopy-to-understand-how-galaxies-form-and-evolve",
-          title: "Using spectroscopy to understand how galaxies form and evolve",
+  },{id: "nav-research-overview",
+          title: "Research Overview",
           description: "",
           section: "Navigation",
           handler: () => {
