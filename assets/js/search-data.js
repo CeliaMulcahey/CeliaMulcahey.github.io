@@ -9,9 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research-overview",
-          title: "Research Overview",
-          description: "Turning spatially resolved spectra into maps of galaxy motion and physical conditions.",
+  },{id: "nav-using-spectroscopy-to-understand-how-galaxies-form-and-evolve",
+          title: "Using spectroscopy to understand how galaxies form and evolve",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
