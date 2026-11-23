@@ -80,4 +80,49 @@ nav_order: 1
     </p>
     <p class="research-study__publication"><a href="https://doi.org/10.1051/0004-6361/202142215" target="_blank" rel="noopener noreferrer">Star formation and AGN feedback in the local Universe: Combining LOFAR and MaNGA <span aria-hidden="true">↗</span></a></p>
   </section>
+  
+<style>
+  .research-survey-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1rem, 3vw, 2rem);
+    max-width: 680px;
+    margin: 1.5rem auto 0;
+    align-items: start;
+  }
+  .research-survey-logo {
+    margin: 0;
+    text-align: center;
+  }
+  .research-survey-logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: transparent;
+  }
+  .research-survey-logo figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+  }
+</style>
+
+  <section class="research-study research-surveys" aria-labelledby="research-surveys">
+    <div class="research-study__heading">
+      <h2 id="research-surveys">The GARDEN and MEADOW surveys</h2>
+    </div>
+    <p>
+      I am a core member of both the GARDEN and MEADOW surveys, contributing from proposal development and data collection through data reduction and scientific analysis. Both surveys use JWST/NIRSpec slitlet stepping to study distant galaxies. My primary contributions have centered on measuring galaxy redshifts and gas kinematics, for which I developed custom Python analysis pipelines. I also designed the logos for both surveys. Stay tuned for forthcoming results!
+    </p>
+    <div class="research-survey-logo-grid">
+      <figure class="research-survey-logo">
+        <img src="{{ '/assets/img/research/garden_logo_transparent.png' | relative_url }}" alt="GARDEN survey logo featuring yellow flowers and a blue sky" width="2048" height="1794" loading="lazy" decoding="async">
+        <figcaption>GARDEN</figcaption>
+      </figure>
+      <figure class="research-survey-logo">
+        <img src="{{ '/assets/img/research/meadow_logo_transparent.png' | relative_url }}" alt="MEADOW survey logo featuring a colorful wildflower meadow and a blue sky" width="2048" height="1794" loading="lazy" decoding="async">
+        <figcaption>MEADOW</figcaption>
+      </figure>
+    </div>
+  </section>
 </div>
