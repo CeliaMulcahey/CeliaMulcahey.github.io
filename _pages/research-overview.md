@@ -15,17 +15,19 @@ nav_order: 1
     <p>
     My research uses integral field spectroscopy (IFS), a technique that combines the power of imaging and spectroscopy. Rather than capturing a single spectrum of a galaxy, IFS collects a spectrum of light at every spatial pixel in an image. This creates a three-dimensional dataset, with two spatial dimensions and a third dimension containing wavelength information. By analyzing these spectra, I can construct detailed maps of how gas and stars move, their chemical properties, and the physical conditions across a galaxy, revealing how these characteristics vary from one region to another.
     </p>
-    <div class="research-upcoming">
-      <span class="research-upcoming__label">Looking ahead</span>
-      <p>
-        My forthcoming work with the <strong>GARDEN</strong> and <strong>MEADOW</strong> surveys examines gas kinematics in distant galaxies as they were <strong>7–13 billion years ago</strong>. Below are examples of peer-reviewed research I led of galaxies closer to our own Milky Way galaxy. These works showcase how I turn complex, high-dimensional data sets into meaningful information.
-      </p>
-    </div>
   </div>
+
+  <section class="research-study" aria-labelledby="research-looking-ahead">
+    <div class="research-study__heading">
+      <h2 id="research-looking-ahead">Looking ahead</h2>
+    </div>
+    <p>
+      My forthcoming work with the <strong>GARDEN</strong> and <strong>MEADOW</strong> surveys examines gas kinematics in distant galaxies as they were <strong>7–13 billion years ago</strong>. Below are examples of peer-reviewed research I led of galaxies closer to our own Milky Way galaxy. These works showcase how I turn complex, high-dimensional data sets into meaningful information.
+    </p>
+  </section>
 
   <section class="research-study" aria-labelledby="research-kinematics">
     <div class="research-study__heading">
-      <p class="research-eyebrow">01 / Kinematics</p>
       <h2 id="research-kinematics">Mapping how galaxies move</h2>
     </div>
     <p>
@@ -46,13 +48,11 @@ nav_order: 1
       </a>
       <figcaption><strong>Figure 4 · IC 1459 in its environment.</strong> These images zoom progressively inward, connecting gas in the surrounding galaxy group to the detailed structure revealed by spectroscopy. From left to right: the group’s neutral hydrogen (H I) map from <strong>Saponara et al. (2018)</strong>, a deep optical image from <strong>Malin (1985)</strong>, an H&alpha; + [N II] image of IC 1459 (about 1.34 arcminutes across) from <strong>Goudfrooij et al. (1990a)</strong>, and our spatially resolved [N II] emission-line map of the central 30 arcseconds. The final panel traces the ionized gas whose motion is mapped in Figure 3 above. <span class="research-figure__hint">Select the figure to view it full size.</span></figcaption>
     </figure>
-    <p class="research-study__methods"><strong>Methods in practice</strong> · Spectral decomposition · Signal-to-noise-aware spatial binning · Velocity estimation · Uncertainty analysis · Geospatial-style parameter mapping</p>
     <p class="research-study__publication"><span>Peer-reviewed publication · 2021</span> <a href="https://doi.org/10.1093/mnras/stab1137" target="_blank" rel="noopener noreferrer">Deciphering the origin of ionized gas in IC 1459 with VLT/MUSE <span aria-hidden="true">↗</span></a></p>
   </section>
 
   <section class="research-study" aria-labelledby="research-chemistry">
     <div class="research-study__heading">
-      <p class="research-eyebrow">02 / Chemical fingerprints &amp; ionization</p>
       <h2 id="research-chemistry">Reading the signatures in light</h2>
     </div>
     <p>
@@ -61,7 +61,7 @@ nav_order: 1
     <p>
     In a study combining optical integral field spectroscopy from the MaNGA survey with radio observations from LOFAR, I examined a statistical sample of galaxies hosting radio-detected active galactic nuclei (AGN) and compared them with a control sample of galaxies matched in stellar mass, redshift, morphology, and inclination, but without active nuclei. Traditionally, astronomers use diagnostic diagrams based on spectral emission lines to classify galaxies according to their dominant source of ionization. However, a single classification can oversimplify the complex processes occurring within a galaxy. In this work, I combined multiple spectral diagnostics to classify the dominant ionization mechanism at each spatial pixel, constructing maps that reveal where different sources of ionization are located.
     </p>
-    </p>
+    <p>
     The figure below illustrates the power of integral field spectroscopy when studying the internal properties of galaxies. The AGN host galaxy (left) and its matched control galaxy (right) are remarkably similar in their images. However, their spatially resolved maps reveal striking differences. In the AGN host, star formation is distributed in a ring-like structure across the galaxy, whereas the control galaxy exhibits a strong central concentration of star formation. These spatial patterns would be difficult to distinguish from a single spectrum or galaxy-wide measurement. IFS allows us to determine not only how much star formation is occurring, but where within a galaxy it is taking place, providing a more complete picture of galaxy evolution and a way to investigate the potential influence of central black holes on their host galaxies.
     </p>
     <div class="research-figure-grid">
@@ -81,7 +81,6 @@ nav_order: 1
     <p>
       Across the wider sample, we found that radio-active galaxies and their inactive counterparts have broadly similar star-formation histories. The results suggest that current AGN activity does not, on its own, explain why star formation has slowed in these galaxies.
     </p>
-    <p class="research-study__methods"><strong>Methods in practice</strong> · Spectral feature extraction · Multi-criteria classification · Pixel-level masking · Cross-instrument data integration · Spatial comparisons</p>
     <p class="research-study__publication"><span>Peer-reviewed publication · 2022</span> <a href="https://doi.org/10.1051/0004-6361/202142215" target="_blank" rel="noopener noreferrer">Star formation and AGN feedback in the local Universe: Combining LOFAR and MaNGA <span aria-hidden="true">↗</span></a></p>
   </section>
 </div>
